@@ -5,8 +5,8 @@ chmod +x start.sh
 
 
 ## xml file
-
-< ?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+```
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <Info num="2"> 
     <camera to="img">                        <!-- 摄像头转为jpg图片的参数 -->
         <time_interval>60</time_interval>    <!-- 采集相邻两张图片的时间间隔(s) -->
@@ -20,7 +20,7 @@ chmod +x start.sh
         <vid_duration>120</vid_duration>     <!-- 截取视频的时长(s) -->
     </camera>
 </Info>
-
+```
 
 ## note
 
